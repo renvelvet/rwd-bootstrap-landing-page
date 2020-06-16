@@ -69,3 +69,7 @@ body {
 .footer {
   margin-bottom: 60px;
 }
+.card-title {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+}
