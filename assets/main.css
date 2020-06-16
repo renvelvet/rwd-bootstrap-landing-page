@@ -1,0 +1,51 @@
+/* ini kenapa ga bisa penuh  */
+/* ---------- HEADER ------------ */
+.jumbotron {
+  /* width: 768px; */
+  height: 480px;
+  object-fit: cover;
+  background-image: url(https://www.gstatic.com/bfe/apps/website/img/h/71194643-coffee-1440.jpg);
+}
+
+/* ---------- OFFER ------------ */
+.offer {
+  display: flex;
+  flex-direction: column;
+}
+.offer h3 {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+.offer .list-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-basis: initial;
+}
+.offer .card {
+  text-align: center;
+}
+.media img {
+  width: 20%;
+}
+
+/* ---------- SHOP ------------ */
+.shop {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  background-color: khaki;
+}
+.shop h3 {
+  text-align: center;
+  margin: 40px 0;
+}
+.shop .list-cards {
+  display: flex;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-basis: initial;
+}
